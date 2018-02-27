@@ -12,6 +12,7 @@ enum ScraperError: Error {
     case dataFromatError
 }
 
+
 let semaphore = DispatchSemaphore(value: 0)
 
 func scrapWebsite(from url: URL, completionHandler completion: @escaping (ScraperResult)->Void) {

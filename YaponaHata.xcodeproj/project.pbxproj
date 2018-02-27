@@ -16,6 +16,7 @@
 		B01B7ACE204554CE00665F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B7ACC204554CE00665F26 /* Main.storyboard */; };
 		B01B7AD0204554CE00665F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01B7ACF204554CE00665F26 /* Assets.xcassets */; };
 		B01B7AD3204554CE00665F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B7AD1204554CE00665F26 /* LaunchScreen.storyboard */; };
+		B02559562045D3DE00A5FC56 /* YaponaHataScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02559552045D3DE00A5FC56 /* YaponaHataScraper.swift */; };
 		FA2ECF094360C6B23DBB3EC8 /* Pods_YaponaHata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1227B12348C7DB8F453B5661 /* Pods_YaponaHata.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		B01B7ACF204554CE00665F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01B7AD2204554CE00665F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B01B7AD4204554CE00665F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02559552045D3DE00A5FC56 /* YaponaHataScraper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaponaHataScraper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				B01B7AC8204554CE00665F26 /* AppDelegate.swift */,
 				B003C2AB2045B83800F8096C /* Sources */,
+				B02559542045D17900A5FC56 /* Network */,
 				B003C2A22045ADF000F8096C /* Model */,
 				B01B7ADD2045552D00665F26 /* ViewControllers */,
 				B01B7ADB2045550D00665F26 /* Storyboards & Xibs */,
@@ -138,6 +141,14 @@
 				B01B7ACA204554CE00665F26 /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B02559542045D17900A5FC56 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B02559552045D3DE00A5FC56 /* YaponaHataScraper.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		B634A634829F490050ACBBD3 /* Frameworks */ = {
@@ -277,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02559562045D3DE00A5FC56 /* YaponaHataScraper.swift in Sources */,
 				B003C2AA2045B70F00F8096C /* MenuSection.swift in Sources */,
 				B003C2A42045AF4E00F8096C /* Dish.swift in Sources */,
 				B003C2AD2045B84A00F8096C /* Extensions.swift in Sources */,

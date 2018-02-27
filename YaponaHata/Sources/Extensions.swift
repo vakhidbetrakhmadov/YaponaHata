@@ -11,3 +11,10 @@ import Foundation
 extension Double {
     var kg: Double { return self / 1000 }
 }
+
+extension Array where Element:Equatable {
+    mutating func remove(item: Element) -> Element? {
+        guard let index = index(of: item) else { return nil }
+        return remove(at: index)
+    }
+}

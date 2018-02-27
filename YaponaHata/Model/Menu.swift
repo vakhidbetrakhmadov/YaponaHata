@@ -13,6 +13,7 @@ class Menu {
     // MARK: - Public -
     
     
+    
     // MARK: - Private -
     
     // MARK: Instance properties

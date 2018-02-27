@@ -40,8 +40,8 @@ struct Dish {
     }
     
     @discardableResult
-    func remove(tag: Tag) -> Tag {
-        return remove(tag: tag)
+    mutating func remove(tag: Tag) -> Tag? {
+        return tags.remove(item: tag)
     }
     
     func isTagged(by tag: Tag) -> Bool {

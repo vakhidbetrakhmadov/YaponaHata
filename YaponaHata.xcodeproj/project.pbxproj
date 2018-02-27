@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B003C2A42045AF4E00F8096C /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003C2A32045AF4E00F8096C /* Dish.swift */; };
+		B003C2A62045B51600F8096C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003C2A52045B51600F8096C /* Menu.swift */; };
+		B003C2AA2045B70F00F8096C /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003C2A92045B70F00F8096C /* MenuSection.swift */; };
+		B003C2AD2045B84A00F8096C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003C2AC2045B84A00F8096C /* Extensions.swift */; };
+		B01B7AC9204554CE00665F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B7AC8204554CE00665F26 /* AppDelegate.swift */; };
+		B01B7ACB204554CE00665F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B7ACA204554CE00665F26 /* ViewController.swift */; };
+		B01B7ACE204554CE00665F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B7ACC204554CE00665F26 /* Main.storyboard */; };
+		B01B7AD0204554CE00665F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01B7ACF204554CE00665F26 /* Assets.xcassets */; };
+		B01B7AD3204554CE00665F26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01B7AD1204554CE00665F26 /* LaunchScreen.storyboard */; };
+		FA2ECF094360C6B23DBB3EC8 /* Pods_YaponaHata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1227B12348C7DB8F453B5661 /* Pods_YaponaHata.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1227B12348C7DB8F453B5661 /* Pods_YaponaHata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaponaHata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F88BD3B2E68E1A91F7DB94C /* Pods-YaponaHata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaponaHata.release.xcconfig"; path = "Pods/Target Support Files/Pods-YaponaHata/Pods-YaponaHata.release.xcconfig"; sourceTree = "<group>"; };
+		5FA61B27D0E56A958B2EBC0A /* Pods-YaponaHata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaponaHata.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YaponaHata/Pods-YaponaHata.debug.xcconfig"; sourceTree = "<group>"; };
+		B003C2A32045AF4E00F8096C /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		B003C2A52045B51600F8096C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B003C2A92045B70F00F8096C /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		B003C2AC2045B84A00F8096C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B01B7AC5204554CE00665F26 /* YaponaHata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaponaHata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01B7AC8204554CE00665F26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B01B7ACA204554CE00665F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B01B7ACD204554CE00665F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B01B7ACF204554CE00665F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B01B7AD2204554CE00665F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B01B7AD4204554CE00665F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B01B7AC2204554CE00665F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2ECF094360C6B23DBB3EC8 /* Pods_YaponaHata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209BF737C2010F62DC7E9E42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FA61B27D0E56A958B2EBC0A /* Pods-YaponaHata.debug.xcconfig */,
+				3F88BD3B2E68E1A91F7DB94C /* Pods-YaponaHata.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B003C2A22045ADF000F8096C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B003C2A32045AF4E00F8096C /* Dish.swift */,
+				B003C2A92045B70F00F8096C /* MenuSection.swift */,
+				B003C2A52045B51600F8096C /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B003C2AB2045B83800F8096C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B003C2AC2045B84A00F8096C /* Extensions.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B01B7ABC204554CE00665F26 = {
+			isa = PBXGroup;
+			children = (
+				B01B7AC7204554CE00665F26 /* YaponaHata */,
+				B01B7AC6204554CE00665F26 /* Products */,
+				209BF737C2010F62DC7E9E42 /* Pods */,
+				B634A634829F490050ACBBD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B01B7AC6204554CE00665F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7AC5204554CE00665F26 /* YaponaHata.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B01B7AC7204554CE00665F26 /* YaponaHata */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7AC8204554CE00665F26 /* AppDelegate.swift */,
+				B003C2AB2045B83800F8096C /* Sources */,
+				B003C2A22045ADF000F8096C /* Model */,
+				B01B7ADD2045552D00665F26 /* ViewControllers */,
+				B01B7ADB2045550D00665F26 /* Storyboards & Xibs */,
+				B01B7ADA204554EA00665F26 /* Assets */,
+				B01B7ADC2045552100665F26 /* Supporting Files */,
+			);
+			path = YaponaHata;
+			sourceTree = "<group>";
+		};
+		B01B7ADA204554EA00665F26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7ACF204554CE00665F26 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B01B7ADB2045550D00665F26 /* Storyboards & Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7ACC204554CE00665F26 /* Main.storyboard */,
+				B01B7AD1204554CE00665F26 /* LaunchScreen.storyboard */,
+			);
+			path = "Storyboards & Xibs";
+			sourceTree = "<group>";
+		};
+		B01B7ADC2045552100665F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7AD4204554CE00665F26 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B01B7ADD2045552D00665F26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B01B7ACA204554CE00665F26 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B634A634829F490050ACBBD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1227B12348C7DB8F453B5661 /* Pods_YaponaHata.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B01B7AC4204554CE00665F26 /* YaponaHata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B01B7AD7204554CE00665F26 /* Build configuration list for PBXNativeTarget "YaponaHata" */;
+			buildPhases = (
+				60FEA1C0615BB0A56CA2DB0E /* [CP] Check Pods Manifest.lock */,
+				B01B7AC1204554CE00665F26 /* Sources */,
+				B01B7AC2204554CE00665F26 /* Frameworks */,
+				B01B7AC3204554CE00665F26 /* Resources */,
+				3F4388033E180693BD3CA25B /* [CP] Embed Pods Frameworks */,
+				3DDC71C95866D29D6C708ED9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaponaHata;
+			productName = YaponaHata;
+			productReference = B01B7AC5204554CE00665F26 /* YaponaHata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01B7ABD204554CE00665F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vakhid Betrakhmadov";
+				TargetAttributes = {
+					B01B7AC4204554CE00665F26 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B01B7AC0204554CE00665F26 /* Build configuration list for PBXProject "YaponaHata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B01B7ABC204554CE00665F26;
+			productRefGroup = B01B7AC6204554CE00665F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B01B7AC4204554CE00665F26 /* YaponaHata */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B01B7AC3204554CE00665F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01B7AD3204554CE00665F26 /* LaunchScreen.storyboard in Resources */,
+				B01B7AD0204554CE00665F26 /* Assets.xcassets in Resources */,
+				B01B7ACE204554CE00665F26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DDC71C95866D29D6C708ED9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YaponaHata/Pods-YaponaHata-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4388033E180693BD3CA25B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YaponaHata/Pods-YaponaHata-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YaponaHata/Pods-YaponaHata-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60FEA1C0615BB0A56CA2DB0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YaponaHata-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01B7AC1204554CE00665F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B003C2AA2045B70F00F8096C /* MenuSection.swift in Sources */,
+				B003C2A42045AF4E00F8096C /* Dish.swift in Sources */,
+				B003C2AD2045B84A00F8096C /* Extensions.swift in Sources */,
+				B01B7ACB204554CE00665F26 /* ViewController.swift in Sources */,
+				B003C2A62045B51600F8096C /* Menu.swift in Sources */,
+				B01B7AC9204554CE00665F26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B01B7ACC204554CE00665F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01B7ACD204554CE00665F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B01B7AD1204554CE00665F26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B01B7AD2204554CE00665F26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B01B7AD5204554CE00665F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B01B7AD6204554CE00665F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01B7AD8204554CE00665F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA61B27D0E56A958B2EBC0A /* Pods-YaponaHata.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEGLUTBYS4;
+				INFOPLIST_FILE = "YaponaHata/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.restermans.YaponaHata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01B7AD9204554CE00665F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F88BD3B2E68E1A91F7DB94C /* Pods-YaponaHata.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEGLUTBYS4;
+				INFOPLIST_FILE = "YaponaHata/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.restermans.YaponaHata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B01B7AC0204554CE00665F26 /* Build configuration list for PBXProject "YaponaHata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01B7AD5204554CE00665F26 /* Debug */,
+				B01B7AD6204554CE00665F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B01B7AD7204554CE00665F26 /* Build configuration list for PBXNativeTarget "YaponaHata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01B7AD8204554CE00665F26 /* Debug */,
+				B01B7AD9204554CE00665F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01B7ABD204554CE00665F26 /* Project object */;
+}

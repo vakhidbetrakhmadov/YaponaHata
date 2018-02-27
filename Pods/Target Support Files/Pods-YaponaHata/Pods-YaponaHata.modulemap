@@ -1,0 +1,6 @@
+framework module Pods_YaponaHata {
+  umbrella header "Pods-YaponaHata-umbrella.h"
+
+  export *
+  module * { export * }
+}
